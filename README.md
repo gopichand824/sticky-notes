@@ -21,9 +21,13 @@ Ensure you have Node.js and npm installed on your machine.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sticky-notes-react.git
+   git clone https://github.com/gopichand824/sticky-notes.git
 
    cd sticky-notes/client
 npm install
-npm start
+npm run dev
+
+
+### Important note 
+at this time , this project is frontend only
 
