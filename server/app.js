@@ -17,6 +17,7 @@ app.get('/users', (req, res) => {
     const randomUser = {
       id: Math.floor(Math.random() * 100),
       name: 'Random User ' + (i + 1),
+      name: `Random User ${i + 1}`,
       email: `random.user${i + 1}@example.com`
     };
     randomUsers.push(randomUser);
@@ -39,6 +40,7 @@ app.get('/users/:id', (req, res) => {
     name: `User ${userId}`,
     age: Math.floor(Math.random() * 100)
   };
+  
   res.json(userData);
 });
 

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+
+.grid_container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  background-color: rgb(252, 252, 252);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.2) 1px, transparent 1px);
+  background-size: 40px 40px; /* Default grid size */
+  background-position: center; /* Keeps grid centered */
+}
